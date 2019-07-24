@@ -1,1 +1,1 @@
-PowerShell (New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/rleekc/Powershell-Scripts/master/openputty.ps1','C:\Users\Public\openputty.ps1');pause;C:\Users\Public\openputty.ps1;rm C:\Users\Public\openputty.ps1
+PowerShell (New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/rleekc/Powershell-Scripts/master/openputty.ps1','C:\Users\Public\openputty.ps1');C:\Users\Public\openputty.ps1;rm C:\Users\Public\openputty.ps1
